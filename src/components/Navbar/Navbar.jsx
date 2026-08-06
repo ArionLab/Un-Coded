@@ -3,7 +3,7 @@ import { useCart } from "../../context/CartContext";
 import { NavLink } from "react-router-dom";
 import { ShoppingCart } from "lucide-react";
 
-import logo from "../../assets/logo/logo.png";
+import logo from "../../assets/logo/logo.webp";
 
 function Navbar() {
   const { cartCount } = useCart();

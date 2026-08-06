@@ -1,9 +1,9 @@
 
-import cookiesWhey from "../../../assets/products/whey/cookies-creme.png";
+import cookiesWhey from "../../../assets/products/whey/cookies-creme.webp";
 
 import blueberryBar from "../../../assets/products/bars/blueberry.jpeg";
 
-import creamOnionChips from "../../../assets/products/chips/cream-onion.png";
+import creamOnionChips from "../../../assets/products/chips/cream-onion.webp";
 import "./Hero.css";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
