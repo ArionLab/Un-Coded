@@ -41,6 +41,8 @@ function Navbar() {
   <NavLink
   to="/cart"
   className="cart-button"
+  aria-label="Shopping Cart"
+  title="Shopping Cart"
 >
 
   <div className="cart-icon">

@@ -195,7 +195,7 @@ useEffect(() => {
               <Link to="/about">
 
                 <button className="secondary-btn">
-                  Learn More
+                  About Elev8
                 </button>
 
               </Link>

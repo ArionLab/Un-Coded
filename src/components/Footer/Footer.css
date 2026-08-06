@@ -106,8 +106,8 @@ grid-template-columns:1fr;
 }
 
 .footer-logo{
-
     width:190px;
+    height:auto;
 
     display:block;
 
