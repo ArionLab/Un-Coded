@@ -87,21 +87,15 @@ background:#171717;
 }
 .hero-right img{
 
-width:100%;
+    width:100%;
 
-max-width:640px;
+    max-width:520px;
 
-display:block;
+    object-fit:contain;
 
-object-fit:contain;
+    transition:.7s;
 
-position:relative;
-
-z-index:2;
-
-filter:drop-shadow(0 40px 70px rgba(0,0,0,.55));
-
-transition:.4s;
+    filter:drop-shadow(0 30px 45px rgba(0,0,0,.35));
 
 }
 
@@ -193,10 +187,3 @@ justify-content:center;
 
 }
 
-.hero-right img{
-
-    position:relative;
-
-    z-index:2;
-
-}
