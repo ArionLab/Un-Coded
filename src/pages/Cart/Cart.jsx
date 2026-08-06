@@ -177,7 +177,17 @@ useEffect(() => {
                                <Link
 
 to="/checkout"
+onClick={() => {
 
+        window.gtag?.("event", "begin_checkout", {
+
+            currency: "INR",
+
+            value: cartTotal
+
+        });
+
+    }}
 className="primary-btn"
 
 >

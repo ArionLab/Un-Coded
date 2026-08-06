@@ -12,7 +12,7 @@ useEffect(() => {
 
         navigate("/");
 
-    }, 5000);
+    }, 3500);
 
     return () => clearTimeout(timer);
 
@@ -39,24 +39,29 @@ useEffect(() => {
 
                     <p>
 
-                        Thank you for choosing Us.
+                        Thank you for choosing us.
 
                         Your order has been received and is being processed.
 
                     </p>
 
-                    <Link
+                    <p className="redirect-text">
 
-                        to="/products"
+    You will be automatically redirected to the home page in 5 seconds.
 
-                        className="primary-btn"
+</p>
 
-                    >
+<Link
 
-                        You will be redirected to the Home page shortly
+    to="/"
 
-                    </Link>
+    className="primary-btn"
 
+>
+
+    Return to Home
+
+</Link>
                 </div>
 
             </div>

@@ -47,13 +47,37 @@ function Checkout() {
 
     }
 
-    function placeOrder(e){
+function placeOrder(e){
 
-    if (e) {
+    if(e){
 
         e.preventDefault();
 
     }
+
+    window.gtag?.("event","purchase",{
+
+        transaction_id: Date.now().toString(),
+
+        currency:"INR",
+
+        value: cartTotal,
+
+        items: cartItems.map(item=>({
+
+            item_id: item.id,
+
+            item_name: item.name,
+
+            item_category: item.category || "Nutrition",
+
+            price: item.price,
+
+            quantity: item.quantity
+
+        }))
+
+    });
 
     clearCart();
 
@@ -215,16 +239,12 @@ function Checkout() {
                         </strong>
 
                     </div>
-                    <button
-
+                   <button
+    type="button"
     className="primary-btn"
-
     onClick={placeOrder}
-
 >
-
     Buy Now
-
 </button>
 
                 </div>
