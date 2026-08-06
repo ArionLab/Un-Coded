@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+
+margin:0;
+
+font-family:"Inter",sans-serif;
+
+color:var(--text);
+
+background:#0A0A0A;
+
+background-image:
+
+radial-gradient(
+circle at top,
+rgba(199,243,107,.045),
+transparent 38%
+),
+
+radial-gradient(
+circle at bottom right,
+rgba(255,255,255,.025),
+transparent 55%
+);
+
+background-attachment:fixed;
+
+overflow-x:hidden;
+
+-webkit-font-smoothing:antialiased;
+
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

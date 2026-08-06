@@ -1,23 +1,67 @@
+import "./Navbar.css";
+import { useCart } from "../../context/CartContext";
 import { NavLink } from "react-router-dom";
 import { ShoppingCart } from "lucide-react";
 
+import logo from "../../assets/logo/logo.png";
+
 function Navbar() {
+  const { cartCount } = useCart();
   return (
-    <nav className="navbar">
-      <h2>Elev8</h2>
 
-      <div className="nav-links">
-        <NavLink to="/">Home</NavLink>
-        <NavLink to="/products">Products</NavLink>
-        <NavLink to="/about">About</NavLink>
-        <NavLink to="/contact">Contact</NavLink>
-      </div>
+    <header className="navbar">
 
-      <NavLink to="/cart">
-        <ShoppingCart size={22} />
+      <NavLink
+        to="/"
+        className="navbar-logo"
+      >
+
+        <img
+          src={logo}
+          alt="Elev8"
+        />
+
       </NavLink>
-    </nav>
+
+      <nav className="navbar-links">
+
+        <NavLink to="/">Home</NavLink>
+
+        <NavLink to="/products">Products</NavLink>
+
+        <NavLink to="/about">About</NavLink>
+
+        <NavLink to="/contact">Contact</NavLink>
+
+      </nav>
+
+  <NavLink
+  to="/cart"
+  className="cart-button"
+>
+
+  <div className="cart-icon">
+
+    <ShoppingCart size={20} />
+
+    {cartCount > 0 && (
+
+      <span className="cart-count">
+
+        {cartCount}
+
+      </span>
+
+    )}
+
+  </div>
+
+</NavLink>
+
+    </header>
+
   );
+
 }
 
 export default Navbar;

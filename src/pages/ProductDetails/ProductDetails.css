@@ -1,0 +1,326 @@
+.product-details-page{
+
+padding:80px 0;
+
+}
+
+.product-details-container{
+
+width:min(1200px,92%);
+
+margin:auto;
+
+display:grid;
+
+grid-template-columns:1fr 1fr;
+
+gap:80px;
+
+align-items:center;
+
+}
+
+.product-image-section{
+
+background:#141414;
+
+border:1px solid rgba(255,255,255,.08);
+
+border-radius:28px;
+
+padding:60px;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+}
+
+.details-image{
+
+width:100%;
+
+max-width:430px;
+
+object-fit:contain;
+
+}
+
+.product-info-section{
+
+display:flex;
+
+flex-direction:column;
+
+}
+
+.details-title{
+
+font-size:3rem;
+
+font-weight:800;
+
+margin:12px 0;
+
+}
+
+.details-rating{
+
+display:flex;
+
+align-items:center;
+
+gap:10px;
+
+font-size:1rem;
+
+margin-bottom:20px;
+
+}
+
+.details-rating span{
+
+color:var(--muted);
+
+}
+
+.details-price{
+
+font-size:2.5rem;
+
+font-weight:800;
+
+margin-bottom:28px;
+
+color:var(--primary);
+
+}
+
+.details-description{
+
+font-size:1.05rem;
+
+line-height:1.9;
+
+color:var(--muted);
+
+max-width:550px;
+
+}
+.nutrition-card{
+
+margin:40px 0;
+
+background:#151515;
+
+border:1px solid rgba(255,255,255,.08);
+
+border-radius:22px;
+
+padding:26px;
+
+}
+
+.nutrition-row{
+
+display:flex;
+
+justify-content:space-between;
+
+padding:16px 0;
+
+border-bottom:1px solid rgba(255,255,255,.06);
+
+}
+
+.nutrition-row:last-child{
+
+border-bottom:none;
+
+}
+
+.nutrition-row span{
+
+color:var(--muted);
+
+}
+
+.quantity-selector{
+
+display:flex;
+
+align-items:center;
+
+gap:18px;
+
+margin:35px 0;
+
+}
+
+.quantity-selector button{
+
+width:46px;
+
+height:46px;
+
+border:none;
+
+border-radius:12px;
+
+background:#1B1B1B;
+
+color:white;
+
+font-size:20px;
+
+cursor:pointer;
+
+transition:.25s;
+
+}
+
+.quantity-selector button:hover{
+
+background:var(--primary);
+
+color:#111;
+
+}
+
+.quantity-selector span{
+
+font-size:1.2rem;
+
+font-weight:700;
+
+min-width:30px;
+
+text-align:center;
+
+}
+
+.details-cart-btn{
+
+width:100%;
+
+height:60px;
+
+border:none;
+
+border-radius:16px;
+
+background:var(--primary);
+
+color:#111;
+
+font-size:17px;
+
+font-weight:700;
+
+cursor:pointer;
+
+transition:.3s;
+
+}
+
+.details-cart-btn:hover{
+
+transform:translateY(-2px);
+
+box-shadow:0 18px 40px rgba(199,243,107,.28);
+
+}
+.related-products{
+
+margin-top:120px;
+
+}
+
+.related-title{
+
+font-size:2rem;
+
+margin-bottom:45px;
+
+text-align:center;
+
+}
+/* ---------- CUSTOMER REVIEWS ---------- */
+
+.reviews-section{
+
+    margin-top:90px;
+
+}
+
+.review-card{
+
+    background:#151515;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    border-radius:22px;
+
+    padding:26px;
+
+    margin-bottom:22px;
+
+    transition:.3s;
+
+}
+
+.review-card:hover{
+
+    border-color:rgba(199,243,107,.25);
+
+    transform:translateY(-3px);
+
+}
+
+.review-header{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-bottom:14px;
+
+}
+
+.review-name{
+
+    font-size:18px;
+
+    font-weight:700;
+
+    color:white;
+
+}
+
+.review-stars{
+
+    color:#FFD54A;
+
+    font-size:18px;
+
+}
+
+.review-card p{
+
+    color:var(--secondary-text);
+
+    line-height:1.8;
+
+}
+
+.no-reviews{
+
+    color:var(--secondary-text);
+
+    margin-top:20px;
+
+}

@@ -25,14 +25,14 @@ function Hero() {
             </span>
 
             <h1>
-              Protein,
+              Fuel Your
               <br />
-              Measured.
+              Potential.
+              
             </h1>
 
             <p>
-              Premium whey protein, protein bars and protein chips engineered
-              for performance without compromising taste.
+              Premium supplements engineered for optimal performance, smooth recovery and everyday wellness.
             </p>
 
             <div className="hero-buttons">

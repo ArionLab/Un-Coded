@@ -1,0 +1,216 @@
+.footer{
+
+    padding:55px 0 24px;
+
+background:#0b0b0b;
+
+border-top:1px solid rgba(255,255,255,.06);
+
+}
+
+.footer-grid{
+
+    display:grid;
+
+    grid-template-columns:2fr 1fr 1fr 1fr;
+
+    gap:60px;
+
+    padding:80px 0 50px;
+
+}
+
+.footer-brand h2{
+
+    color:var(--primary);
+
+    font-size:2rem;
+
+    margin-bottom:18px;
+
+}
+
+.footer-brand p{
+
+    max-width:340px;
+
+    color:var(--muted);
+
+    line-height:1.8;
+
+}
+
+.footer h4{
+
+    margin-bottom:20px;
+
+    font-size:1rem;
+
+}
+
+.footer a{
+
+    display:block;
+
+    color:var(--muted);
+
+    margin-bottom:14px;
+
+    transition:.3s;
+
+}
+
+.footer a:hover{
+
+    color:var(--primary);
+
+    transform:translateX(4px);
+
+}
+
+
+
+@media(max-width:900px){
+
+.footer-grid{
+
+grid-template-columns:1fr 1fr;
+
+}
+
+}
+
+@media(max-width:600px){
+
+.footer-grid{
+
+grid-template-columns:1fr;
+
+}
+
+}
+.footer-top{
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+    justify-content:center;
+
+    text-align:center;
+
+    margin-bottom:38px;
+
+}
+
+.footer-logo{
+
+    width:190px;
+
+    display:block;
+
+    margin:0 auto 18px;
+
+    transition:.35s;
+
+}
+.footer-logo:hover{
+
+transform:scale(1.03);
+
+}
+
+.footer-tagline{
+
+max-width:520px;
+
+margin:auto;
+
+color:var(--secondary-text);
+
+line-height:1.8;
+
+}
+.footer-links{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:50px;
+
+        margin-bottom:45px;
+
+    text-align:center;
+
+}
+.footer-links h3{
+
+    font-size:22px;
+
+    font-weight:700;
+
+    letter-spacing:1px;
+
+    text-transform:uppercase;
+
+    color:rgba(199,243,107,.9);
+
+    margin-bottom:22px;
+    text-shadow:0 0 12px rgba(199,243,107,.12);
+
+}
+
+.footer-links a{
+
+    display:block;
+
+    padding:6px 0;
+
+    font-size:16px;
+
+    color:var(--secondary-text);
+
+    text-decoration:none;
+
+    transition:.25s;
+
+}
+.footer-links a:hover{
+
+    color:var(--primary);
+
+    padding-left:6px;
+
+}
+.footer-bottom{
+
+    border-top:1px solid rgba(255,255,255,.06);
+
+    text-align:center;
+
+    padding-top:22px;
+
+}
+
+.footer-bottom p{
+
+    margin:0;
+
+    font-weight:600;
+
+}
+
+.footer-bottom span{
+
+    display:block;
+
+    margin-top:6px;
+
+    color:var(--secondary-text);
+
+    font-size:14px;
+
+}

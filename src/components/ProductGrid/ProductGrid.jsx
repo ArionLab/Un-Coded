@@ -1,12 +1,10 @@
+import "./ProductGrid.css";
 import ProductCard from "../ProductCard/ProductCard";
-import { getFeaturedProducts } from "../../utils/productUtils";
 
-function ProductGrid() {
-  const featuredProducts = getFeaturedProducts();
-
+function ProductGrid({ products = [] }) {
   return (
     <div className="product-grid">
-      {featuredProducts.map((product) => (
+      {products.map((product) => (
         <ProductCard
           key={product.id}
           product={product}

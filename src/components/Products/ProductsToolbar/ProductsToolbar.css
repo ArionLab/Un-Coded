@@ -1,0 +1,13 @@
+.products-toolbar{
+
+display:flex;
+
+flex-direction:column;
+
+gap:28px;
+
+margin-top:50px;
+
+width:100%;
+
+}

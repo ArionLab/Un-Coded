@@ -1,0 +1,253 @@
+.navbar{
+
+position:sticky;
+
+top:0;
+
+z-index:1000;
+
+height:78px;
+
+padding:0 60px;
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+background:rgba(10,10,10,.88);
+
+backdrop-filter:blur(18px);
+
+border-bottom:1px solid rgba(255,255,255,.06);
+
+}
+
+.navbar-logo{
+
+display:flex;
+
+align-items:center;
+
+text-decoration:none;
+
+}
+
+.navbar-logo img{
+
+height:44px;
+
+width:auto;
+
+display:block;
+
+object-fit:contain;
+
+transition:.3s;
+
+}
+
+.navbar-logo:hover img{
+
+transform:scale(1.03);
+
+}
+
+.navbar-links{
+
+display:flex;
+
+gap:40px;
+
+align-items:center;
+
+}
+
+.navbar-links a{
+
+position:relative;
+
+text-decoration:none;
+
+color:#D0D0D0;
+
+font-size:16px;
+
+font-weight:500;
+
+transition:.3s;
+
+}
+
+.navbar-links a:hover,
+
+.navbar-links a.active{
+
+color:#C7F36B;
+
+}
+
+.navbar-links a::after{
+
+content:"";
+
+position:absolute;
+
+left:0;
+
+bottom:-7px;
+
+width:0;
+
+height:2px;
+
+background:#C7F36B;
+
+transition:.3s;
+
+}
+
+.navbar-links a:hover::after,
+
+.navbar-links a.active::after{
+
+width:100%;
+
+}
+
+.cart-button{
+
+width:46px;
+
+height:46px;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+border-radius:50%;
+
+background:#171717;
+
+color:white;
+
+text-decoration:none;
+
+transition:.3s;
+
+}
+
+.cart-button:hover{
+
+background:#C7F36B;
+
+color:#111;
+
+transform:translateY(-2px);
+
+}
+
+@media(max-width:900px){
+
+.navbar{
+
+padding:0 22px;
+
+}
+
+.navbar-links{
+
+gap:20px;
+
+}
+
+}
+.cart-icon{
+
+position:relative;
+
+display:flex;
+
+align-items:center;
+
+justify-content:center;
+
+}
+
+.cart-count{
+
+position:absolute;
+
+top:-7px;
+
+right:-8px;
+
+width:20px;
+
+height:20px;
+
+border-radius:50%;
+
+background:var(--primary);
+
+color:#111;
+
+font-size:11px;
+
+font-weight:700;
+
+display:flex;
+
+align-items:center;
+
+justify-content:center;
+
+box-shadow:0 4px 12px rgba(0,0,0,.3);
+
+}
+.cart-icon{
+
+    position:relative;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+}
+
+.cart-count{
+
+    position:absolute;
+
+    top:-8px;
+
+    right:-10px;
+
+    width:20px;
+
+    height:20px;
+
+    border-radius:50%;
+
+    background:var(--primary);
+
+    color:#111;
+
+    font-size:11px;
+
+    font-weight:700;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    box-shadow:0 6px 16px rgba(0,0,0,.35);
+
+}

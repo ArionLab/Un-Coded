@@ -13,7 +13,11 @@ function Home() {
       <FeaturedProducts />
       <Science />
       <Testimonials />
-      <FAQ />
+  <div id="faq">
+
+    <FAQ />
+
+</div>
     </>
   );
 }

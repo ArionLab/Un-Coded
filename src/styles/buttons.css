@@ -1,0 +1,112 @@
+.primary-btn{
+
+display:inline-flex;
+
+align-items:center;
+
+justify-content:center;
+
+width:100%;
+
+padding:16px 28px;
+
+background:var(--primary);
+
+color:#111;
+
+font-weight:700;
+
+border:none;
+
+border-radius:16px;
+
+text-decoration:none;
+
+cursor:pointer;
+
+transition:.25s;
+
+}
+
+.primary-btn:hover{
+
+transform:translateY(-2px);
+
+box-shadow:0 12px 28px rgba(199,243,107,.25);
+
+}
+.secondary-btn{
+
+    background:transparent;
+
+    color:white;
+
+    border:1px solid var(--border);
+
+    padding:15px 22px;
+
+    border-radius:14px;
+
+}
+
+
+
+
+
+
+.btn{
+
+display:inline-flex;
+
+align-items:center;
+
+justify-content:center;
+
+gap:10px;
+
+padding:15px 30px;
+
+border-radius:16px;
+
+font-weight:700;
+
+cursor:pointer;
+
+transition:var(--transition);
+
+text-decoration:none;
+
+border:none;
+
+}
+
+.btn-primary{
+
+background:var(--primary);
+
+color:#111;
+
+}
+
+.btn-primary:hover{
+
+transform:translateY(-3px);
+
+box-shadow:0 16px 35px rgba(199,243,107,.28);
+
+}
+.btn-secondary{
+
+background:transparent;
+
+border:1px solid var(--border);
+
+color:white;
+
+}
+
+.btn-secondary:hover{
+
+border-color:var(--primary);
+
+}
