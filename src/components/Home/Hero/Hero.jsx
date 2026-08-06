@@ -219,6 +219,16 @@ useEffect(() => {
 
     alt={heroProducts[currentImage].title}
 
+    width="500"
+
+    height="500"
+
+    fetchPriority="high"
+
+    loading="eager"
+
+    decoding="async"
+
     initial={{
 
         opacity:0,
@@ -246,7 +256,6 @@ useEffect(() => {
     }}
 
 />
-
           </motion.div>
 
         </div>

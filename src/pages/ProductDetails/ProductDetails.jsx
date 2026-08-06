@@ -51,15 +51,14 @@ function ProductDetails() {
                 <div className="product-image-section">
 
                     <img
-
-                        src={product.image}
-
-                        alt={product.name}
-
-                        className="details-image"
-
-                    />
-
+    src={product.image}
+    alt={product.name}
+    className="details-image"
+    width="600"
+    height="600"
+    loading="eager"
+    decoding="async"
+/>
                 </div>
 
                 <div className="product-info-section">

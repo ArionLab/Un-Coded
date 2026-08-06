@@ -12,15 +12,15 @@ function Footer() {
 
         <div className="footer-top">
 
-            <img
-
-                src={logo}
-
-                alt="Elev8"
-
-                className="footer-logo"
-
-            />
+          <img
+    src={logo}
+    alt="Elev8 Logo"
+    className="footer-logo"
+    width="140"
+    height="75"
+    loading="lazy"
+    decoding="async"
+/>
 
             <p className="footer-tagline">
 

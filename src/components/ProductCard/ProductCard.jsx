@@ -13,15 +13,14 @@ function ProductCard({ product }) {
         <div className="product-image-wrapper">
 
             <img
-
-                src={product.image}
-
-                alt={product.name}
-
-                className="product-image"
-
-            />
-
+    src={product.image}
+    alt={product.name}
+    className="product-image"
+    width="350"
+    height="350"
+    loading="lazy"
+    decoding="async"
+/>
         </div>
 
         <div className="product-content">

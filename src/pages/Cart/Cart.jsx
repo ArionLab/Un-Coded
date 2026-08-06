@@ -66,12 +66,17 @@ useEffect(() => {
             key={item.id}
         >
 
-            <img
-                src={item.image}
-                alt={item.name}
-                className="cart-image"
-            />
+           <img
+    src={item.image}
+    alt={item.name}
+    className="cart-image"
 
+    width="350"
+    height="350"
+
+    loading="lazy"
+    decoding="async"
+/>
             <div className="cart-info">
 
                 <span className="cart-category">

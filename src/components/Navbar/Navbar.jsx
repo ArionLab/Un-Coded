@@ -15,11 +15,14 @@ function Navbar() {
         to="/"
         className="navbar-logo"
       >
-
-        <img
-          src={logo}
-          alt="Elev8"
-        />
+<img
+    src={logo}
+    alt="Elev8 Logo"
+    width="140"
+    height="75"
+    loading="eager"
+    decoding="async"
+/>
 
       </NavLink>
 
