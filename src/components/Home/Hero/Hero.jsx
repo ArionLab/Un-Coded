@@ -1,7 +1,7 @@
 
 import cookiesWhey from "../../../assets/products/whey/cookies-creme.webp";
 
-import blueberryBar from "../../../assets/products/bars/blueberry.jpeg";
+import blueberryBar from "../../../assets/products/bars/blueberry.webp";
 
 import creamOnionChips from "../../../assets/products/chips/cream-onion.webp";
 import "./Hero.css";
