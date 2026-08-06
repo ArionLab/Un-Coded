@@ -51,6 +51,35 @@ export function CartProvider({ children }) {
             ];
 
         });
+        if (window.gtag) {
+
+    window.gtag("event", "add_to_cart", {
+
+        currency: "INR",
+
+        value: product.price * quantity,
+
+        items: [
+
+            {
+
+                item_id: product.id,
+
+                item_name: product.name,
+
+                item_category: product.category,
+
+                price: product.price,
+
+                quantity: quantity
+
+            }
+
+        ]
+
+    });
+
+}
         toast(
 
     `${quantity} × ${product.name} added to cart`,
