@@ -61,21 +61,31 @@ function FAQ(){
 
                                     className="faq-question"
 
-                                    onClick={()=>{
+                                    onClick={() => {
 
-                                        if(active===item.id){
+    if (active === item.id) {
 
-                                            setActive(null);
+        setActive(null);
 
-                                        }
+    }
 
-                                        else{
+    else {
 
-                                            setActive(item.id);
+        setActive(item.id);
 
-                                        }
+        if (window.gtag) {
 
-                                    }}
+            window.gtag("event", "faq_click", {
+
+                question: item.question
+
+            });
+
+        }
+
+    }
+
+}}
 
                                 >
 

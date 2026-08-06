@@ -1,7 +1,7 @@
 import "./Cart.css";
 import { Link } from "react-router-dom";
 import { useCart } from "../../context/CartContext";
-
+import { useEffect } from "react";
 function Cart() {
 
     const {
@@ -17,7 +17,15 @@ decreaseQuantity,
 removeFromCart
 
 }=useCart();
+useEffect(() => {
 
+    if (window.gtag) {
+
+        window.gtag("event", "view_cart");
+
+    }
+
+}, []);
     return (
 
         <section className="cart-page">
