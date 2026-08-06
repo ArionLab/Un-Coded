@@ -47,7 +47,7 @@ useEffect(() => {
 
                     <p className="redirect-text">
 
-    You will be automatically redirected to the home page in 5 seconds.
+    You will be automatically redirected to the home page in 3 seconds.
 
 </p>
 
