@@ -1,28 +1,28 @@
 // WHEY
-import classic from "../assets/products/whey/classic.png";
-import choco from "../assets/products/whey/choco.jpg";
-import strawberry from "../assets/products/whey/strawberry.jpeg";
-import blueberry from "../assets/products/whey/blueberry.png";
-import butterscotch from "../assets/products/whey/butterscotch.png";
-import caramel from "../assets/products/whey/caramel.png";
-import cookiesCreme from "../assets/products/whey/cookies-creme.png";
-import hazelnut from "../assets/products/whey/hazelnut.png";
+import classic from "../assets/products/whey/classic.webp";
+import choco from "../assets/products/whey/choco.webp";
+import strawberry from "../assets/products/whey/strawberry.webp";
+import blueberry from "../assets/products/whey/blueberry.webp";
+import butterscotch from "../assets/products/whey/butterscotch.webp";
+import caramel from "../assets/products/whey/caramel.webp";
+import cookiesCreme from "../assets/products/whey/cookies-creme.webp";
+import hazelnut from "../assets/products/whey/hazelnut.webp";
 
 // PROTEIN BARS
-import biscoffBar from "../assets/products/bars/biscoff.jpeg";
-import blueberryBar from "../assets/products/bars/blueberry.jpeg";
-import butterscotchBar from "../assets/products/bars/butterscotch.jpeg";
-import cookiesCremeBar from "../assets/products/bars/cookies-creme.jpeg";
-import doubleChocoBar from "../assets/products/bars/double-choco.jpeg";
-import mangoBar from "../assets/products/bars/mango.jpeg";
-import strawberryBar from "../assets/products/bars/strawberry.png";
-import vanillaAlmondBar from "../assets/products/bars/vanilla-almond.png";
+import biscoffBar from "../assets/products/bars/biscoff.webp";
+import blueberryBar from "../assets/products/bars/blueberry.webp";
+import butterscotchBar from "../assets/products/bars/butterscotch.webp";
+import cookiesCremeBar from "../assets/products/bars/cookies-creme.webp";
+import doubleChocoBar from "../assets/products/bars/double-choco.webp";
+import mangoBar from "../assets/products/bars/mango.webp";
+import strawberryBar from "../assets/products/bars/strawberry.webp";
+import vanillaAlmondBar from "../assets/products/bars/vanilla-almond.webp";
 
 // PROTEIN CHIPS
-import creamOnion from "../assets/products/chips/cream-onion.png";
-import periPeri from "../assets/products/chips/peri-peri.png";
-import salted from "../assets/products/chips/salted.png";
-import sweetSour from "../assets/products/chips/sweet-sour.png";
+import creamOnion from "../assets/products/chips/cream-onion.webp";
+import periPeri from "../assets/products/chips/peri-peri.webp";
+import salted from "../assets/products/chips/salted.webp";
+import sweetSour from "../assets/products/chips/sweet-sour.webp";
 export const products = [
 
   // ====================== WHEY ======================
