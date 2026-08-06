@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://elev8-online.vercel.app/sitemap.xml
