@@ -476,7 +476,7 @@ export const products = [
 
   weight: "40 g",
   servings: "1 Pack",
-  protein: "15g",
+  protein: "10g",
   calories: "140 kcal",
 
   description:
@@ -503,7 +503,7 @@ export const products = [
 
   weight: "40 g",
   servings: "1 Pack",
-  protein: "15g",
+  protein: "10g",
   calories: "140 kcal",
 
   description:
@@ -530,7 +530,7 @@ export const products = [
 
   weight: "40 g",
   servings: "1 Pack",
-  protein: "15g",
+  protein: "10g",
   calories: "140 kcal",
 
   description:
@@ -557,7 +557,7 @@ export const products = [
 
   weight: "40 g",
   servings: "1 Pack",
-  protein: "15g",
+  protein: "10g",
   calories: "140 kcal",
 
   description:

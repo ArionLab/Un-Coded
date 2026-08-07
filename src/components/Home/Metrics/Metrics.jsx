@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const metrics = [
   {
-    value: "24g",
+    value: "25g",
     label: "Protein Per Serving",
   },
   {
@@ -12,7 +12,7 @@ const metrics = [
     label: "Naturally Occurring BCAAs",
   },
   {
-    value: "20+",
+    value: "20",
     label: "Premium Products",
   },
   {

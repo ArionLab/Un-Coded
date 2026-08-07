@@ -9,7 +9,7 @@ export const faqs = [
   {
     id:2,
     question:"How much protein is there per serving?",
-    answer:"Every serving delivers 24g of premium whey protein together with naturally occurring BCAAs to support recovery."
+    answer:"Every serving delivers 25g of premium whey protein together with naturally occurring BCAAs to support recovery."
   },
 
   {
