@@ -43,7 +43,7 @@ export const products = [
   weight: "1 kg",
   servings: "30 Servings",
   protein: "25g",
-  calories: "122 kcal",
+  calories: "122 kcal/serve",
 
   description:
     "A smooth, clean and versatile flavour with a light, creamy finish that pairs perfectly with every shake.",
@@ -70,7 +70,7 @@ export const products = [
   weight: "1 kg",
   servings: "30 Servings",
   protein: "25g",
-  calories: "122 kcal",
+  calories: "122 kcal/serve",
 
   description:
     "Rich cocoa notes blended into a velvety, indulgent chocolate shake with a satisfyingly smooth finish.",
@@ -97,7 +97,7 @@ export const products = [
   weight: "1 kg",
   servings: "30 Servings",
   protein: "25g",
-  calories: "122 kcal",
+  calories: "122 kcal/serve",
 
   description:
     "Sweet, juicy strawberry flavour with a refreshing fruity aroma and a creamy milkshake-like texture.",
@@ -124,7 +124,7 @@ export const products = [
   weight: "1 kg",
   servings: "30 Servings",
   protein: "25g",
-  calories: "122 kcal",
+  calories: "122 kcal/serve",
 
   description:
     "A vibrant blueberry flavour with subtle berry sweetness, balanced by a smooth and creamy finish.",
@@ -151,7 +151,7 @@ export const products = [
   weight: "1 kg",
   servings: "30 Servings",
   protein: "25g",
-  calories: "122 kcal",
+  calories: "122 kcal/serve",
 
   description:
     "Creamy butterscotch flavour layered with buttery caramel notes and a rich dessert-inspired finish.",
@@ -178,7 +178,7 @@ export const products = [
   weight: "1 kg",
   servings: "30 Servings",
   protein: "25g",
-  calories: "122 kcal",
+  calories: "122 kcal/serve",
 
   description:
     "Silky caramel sweetness with toasted sugar notes for a luxuriously smooth and satisfying shake.",
@@ -205,7 +205,7 @@ export const products = [
   weight: "1 kg",
   servings: "30 Servings",
   protein: "25g",
-  calories: "122 kcal",
+  calories: "122 kcal/serve",
 
   description:
     "Classic cookies and crème flavour with chocolate cookie notes wrapped in a smooth vanilla cream finish.",
@@ -232,7 +232,7 @@ export const products = [
   weight: "1 kg",
   servings: "30 Servings",
   protein: "25g",
-  calories: "122 kcal",
+  calories: "122 kcal/serve",
 
   description:
     "Roasted hazelnut flavour with warm nutty notes and a luxuriously creamy finish in every sip.",
@@ -260,7 +260,7 @@ export const products = [
   weight: "60 g",
   servings: "1 Bar",
   protein: "20g",
-  calories: "210 kcal",
+  calories: "210 kcal/serve",
 
   description:
     "Rich caramelised biscuit flavour with a soft centre, delicate crunch and a perfectly balanced sweetness.",
@@ -287,7 +287,7 @@ export const products = [
   weight: "60 g",
   servings: "1 Bar",
   protein: "20g",
-  calories: "210 kcal",
+  calories: "210 kcal/serve",
 
   description:
     "Bursting with sweet blueberry flavour, wrapped in a soft, chewy texture with a smooth finish.",
@@ -314,7 +314,7 @@ export const products = [
   weight: "60 g",
   servings: "1 Bar",
   protein: "20g",
-  calories: "210 kcal",
+  calories: "210 kcal/serve",
 
   description:
     "Smooth buttery butterscotch flavour with rich caramel notes and an irresistibly chewy bite.",
@@ -341,7 +341,7 @@ export const products = [
   weight: "60 g",
   servings: "1 Bar",
   protein: "20g",
-  calories: "210 kcal",
+  calories: "210 kcal/serve",
 
   description:
     "Chocolate cookie pieces blended with smooth vanilla cream for a rich cookies and crème experience.",
@@ -368,7 +368,7 @@ export const products = [
   weight: "60 g",
   servings: "1 Bar",
   protein: "20g",
-  calories: "210 kcal",
+  calories: "210 kcal/serve",
 
   description:
     "Deep chocolate flavour layered with rich cocoa notes and a decadent fudgy centre in every bite.",
@@ -395,7 +395,7 @@ export const products = [
   weight: "60 g",
   servings: "1 Bar",
   protein: "20g",
-  calories: "210 kcal",
+  calories: "210 kcal/serve",
 
   description:
     "Bright tropical mango flavour with juicy fruit notes and a naturally smooth, chewy texture.",
@@ -422,7 +422,7 @@ export const products = [
   weight: "60 g",
   servings: "1 Bar",
   protein: "20g",
-  calories: "210 kcal",
+  calories: "210 kcal/serve",
 
   description:
     "Sweet strawberry flavour with creamy milkshake notes and a satisfyingly soft bite.",
@@ -449,7 +449,7 @@ export const products = [
   weight: "60 g",
   servings: "1 Bar",
   protein: "20g",
-  calories: "210 kcal",
+  calories: "210 kcal/serve",
 
   description:
     "Smooth Madagascan vanilla flavour complemented by lightly roasted almond notes and a creamy finish.",
@@ -477,7 +477,7 @@ export const products = [
   weight: "40 g",
   servings: "1 Pack",
   protein: "10g",
-  calories: "140 kcal",
+  calories: "140 kcal/serve",
 
   description:
     "A perfectly balanced blend of creamy herbs and savoury onion with a light, crispy crunch in every bite.",
@@ -504,7 +504,7 @@ export const products = [
   weight: "40 g",
   servings: "1 Pack",
   protein: "10g",
-  calories: "140 kcal",
+  calories: "140 kcal/serve",
 
   description:
     "Bold peri peri seasoning with smoky spices, vibrant heat and an irresistibly crispy finish.",
@@ -531,7 +531,7 @@ export const products = [
   weight: "40 g",
   servings: "1 Pack",
   protein: "10g",
-  calories: "140 kcal",
+  calories: "140 kcal/serve",
 
   description:
     "Classic lightly salted flavour that lets the crisp texture shine with every satisfying bite.",
@@ -558,7 +558,7 @@ export const products = [
   weight: "40 g",
   servings: "1 Pack",
   protein: "10g",
-  calories: "140 kcal",
+  calories: "140 kcal/serve",
 
   description:
     "Tangy sweet and sour seasoning layered with subtle sweetness and a perfectly crunchy bite.",
